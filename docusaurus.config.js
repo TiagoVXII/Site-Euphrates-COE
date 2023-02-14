@@ -134,7 +134,7 @@ const config = {
       logo: {
       alt: 'Image',
       src: '/img/favicon.ico',
-      href: '/',
+      href: 'https://discord.gg/gQPgpp4aDe',
       },
         copyright: `Copyright © ${new Date().getFullYear()} Site Euphrates, Inc. Built with Docusaurus`,
       },

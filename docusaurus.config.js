@@ -138,6 +138,14 @@ const config = {
       },
         copyright: `Copyright © ${new Date().getFullYear()} Site Euphrates, Inc. Built with Docusaurus`,
       },
+announcementBar: {
+        id: 'announce_bar',
+        content:
+          'The Code of Ethics is subject to change at any time. Major changes will be announced in the main communications server.',
+        backgroundColor: '#0000001a',
+        textColor: '#5f98c0',
+        isCloseable: false,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

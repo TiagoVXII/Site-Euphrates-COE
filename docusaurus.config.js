@@ -79,7 +79,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documents',
+            label: 'COE',
           },
           {
             href: 'https://github.com/TiagoVXII/Site-Euphrates-COE',
@@ -95,7 +95,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documents',
+                label: 'COE',
                 to: '/',
               },
             ],

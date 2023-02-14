@@ -6,25 +6,57 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #7b5314;
+  --ifm-color-primary-dark: #6f4b12;
+  --ifm-color-primary-darker: #694711;
+  --ifm-color-primary-darkest: #563a0e;
+  --ifm-color-primary-light: #875b16;
+  --ifm-color-primary-lighter: #8d5f17;
+  --ifm-color-primary-lightest: #a06c1a;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #f5a524;
+  --ifm-color-primary-dark: #f29a0b;
+  --ifm-color-primary-darker: #e4910a;
+  --ifm-color-primary-darkest: #bc7709;
+  --ifm-color-primary-light: #f6b03f;
+  --ifm-color-primary-lighter: #f7b64c;
+  --ifm-color-primary-lightest: #f9c675;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+img[alt="dep-logo"] { 
+  max-width:  200px; 
+  display: block;
+  float: left;
+  padding: 15px;
+}
+
+.depTitle {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.depSubTitle {
+  font-size: 1.1em;
+  font-weight: italic;
+}
+
+
+
+[data-theme='light'] img[src$='#gh-dark-mode-only'],
+[data-theme='dark'] img[src$='#gh-light-mode-only'] {
+  display: none;
 }

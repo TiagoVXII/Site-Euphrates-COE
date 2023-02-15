@@ -145,7 +145,12 @@ announcementBar: {
         backgroundColor: '#0000001a',
         textColor: '#5f98c0',
         isCloseable: false,
-      },
+},
+      colorMode: {
+  defaultMode: 'dark',
+  disableSwitch: true,
+  respectPrefersColorScheme: false
+},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

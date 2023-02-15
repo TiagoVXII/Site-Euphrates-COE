@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Site Euphrates COE',
+  title: 'Site Euphrates | Code of Ethics',
   tagline: '',
   favicon: 'img/favicon.ico',
   
@@ -69,7 +69,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/favicon.ico',
       navbar: {
-        title: 'Site Euphrates COE',
+        title: 'Site Euphrates | Code of Ethics',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',

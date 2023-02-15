@@ -134,10 +134,10 @@ const config = {
         ],
       logo: {
       alt: 'Image',
-      src: '/img/favicon.ico',
+      src: '/img/wolfstudios.jpg',
       href: 'https://discord.gg/gQPgpp4aDe',
       },
-        copyright: `Copyright © ${new Date().getFullYear()} Site Euphrates, Inc. Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Site Euphrates, Inc. Built with Docusaurus. Powered by Wolf Studios.`,
       },
 announcementBar: {
         id: 'announce_bar',

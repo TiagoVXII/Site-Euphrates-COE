@@ -79,7 +79,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'COE',
+            label: 'Code of Ethics',
           },
           {
             href: 'https://github.com/TiagoVXII/Site-Euphrates-COE',
@@ -95,7 +95,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'COE',
+                label: 'Code of Ethics',
                 to: '/',
               },
             ],
@@ -109,7 +109,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/zuvfkFD2td',
+                href: 'https://discord.gg/gQPgpp4aDe',
               },
               {
                 label: 'N/A',

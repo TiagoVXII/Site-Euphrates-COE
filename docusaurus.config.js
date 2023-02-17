@@ -92,42 +92,17 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Code of Ethics',
-                to: '/',
-              },
-            ],
-          },
+          
           {
             title: 'Community',
             items: [
               {
-                label: 'N/A',
-                href: 'N/A',
+                label: 'Github',
+                href: 'https://github.com/TiagoVXII/Site-Euphrates-COE',
               },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/gQPgpp4aDe',
-              },
-              {
-                label: 'N/A',
-                href: 'N/A',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Documents',
-                to: '/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/TiagoVXII/Site-Euphrates-COE',
               },
             ],
           },
